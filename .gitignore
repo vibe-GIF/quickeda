@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# 测试 / 缓存
+.pytest_cache/
+.ipynb_checkpoints/
+
+# 生成的报告与示例数据（保留 examples 下的脚本，忽略产物）
+*_report.html
+report.html
+sample_*.csv
+# 但保留这份示例报告，方便访客直接预览效果
+!examples/sample_report.html
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

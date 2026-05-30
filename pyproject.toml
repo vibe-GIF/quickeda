@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quickeda"
+version = "0.1.0"
+description = "一行命令，秒出数据探索分析（EDA）报告 / One command, instant EDA report."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Your Name", email = "you@example.com" }]
+keywords = ["eda", "data-analysis", "pandas", "data-science", "report", "数据分析"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+dependencies = [
+    "pandas>=1.3",
+    "numpy>=1.20",
+    "matplotlib>=3.4",
+]
+
+[project.optional-dependencies]
+excel = ["openpyxl>=3.0"]
+parquet = ["pyarrow>=7.0"]
+
+[project.urls]
+Homepage = "https://github.com/your-name/quickeda"
+Repository = "https://github.com/your-name/quickeda"
+
+[project.scripts]
+quickeda = "quickeda.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["quickeda*"]
