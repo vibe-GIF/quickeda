@@ -12,12 +12,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-# 统一配色，保证报告观感一致
-_ACCENT = "#6366f1"
-_ACCENT_EDGE = "#4f46e5"
-_DANGER = "#f43f5e"
-_GRID = "#eef2f7"
-_TEXT = "#475569"
+# 统一配色（Apple 风格：苹果蓝 / 苹果红 / 中性灰）
+_ACCENT = "#0071e3"
+_ACCENT_EDGE = "#0062c4"
+_DANGER = "#ff3b30"
+_GRID = "#ededf0"
+_TEXT = "#6e6e73"
 _DPI = 150  # 高清渲染，retina 屏 / README 头图都清晰
 
 try:
