@@ -9,7 +9,7 @@ description = "一行命令，秒出数据探索分析（EDA）报告 / One comm
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
-authors = [{ name = "Your Name", email = "you@example.com" }]
+authors = [{ name = "vibe-GIF", email = "2897729761@qq.com" }]
 keywords = ["eda", "data-analysis", "pandas", "data-science", "report", "数据分析"]
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -28,8 +28,8 @@ excel = ["openpyxl>=3.0"]
 parquet = ["pyarrow>=7.0"]
 
 [project.urls]
-Homepage = "https://github.com/your-name/quickeda"
-Repository = "https://github.com/your-name/quickeda"
+Homepage = "https://github.com/vibe-GIF/quickeda"
+Repository = "https://github.com/vibe-GIF/quickeda"
 
 [project.scripts]
 quickeda = "quickeda.cli:main"

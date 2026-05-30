@@ -52,7 +52,7 @@ pip install quickeda
 或从源码安装：
 
 ```bash
-git clone https://github.com/your-name/quickeda.git
+git clone https://github.com/vibe-GIF/quickeda.git
 cd quickeda
 pip install -e .
 ```
@@ -120,7 +120,7 @@ quickeda sample_sales.csv --open     # 生成并打开报告
 - [ ] 英文报告模板切换
 - [ ] Jupyter Notebook 内联展示
 
-欢迎在 [Issues](https://github.com/your-name/quickeda/issues) 提需求 🙌
+欢迎在 [Issues](https://github.com/vibe-GIF/quickeda/issues) 提需求 🙌
 
 ## 🤝 参与贡献
 
