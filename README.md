@@ -13,6 +13,10 @@
 
 [English](#english) · [快速开始](#-快速开始) · [功能](#-功能特性) · [示例](#-示例)
 
+<br>
+
+<img src="examples/screenshot.png" alt="QuickEDA 报告示例" width="760">
+
 </div>
 
 ---
@@ -96,21 +100,13 @@ python examples/generate_sample.py   # 生成 sample_sales.csv
 quickeda sample_sales.csv --open     # 生成并打开报告
 ```
 
-报告长这样（节选）：
+生成的报告长这样（下图为真实输出）：
 
-```
-📊 数据探查报告
-┌─────────┬─────────┬──────────┬──────────┐
-│ 行数     │ 列数     │ 缺失比例   │ 重复行数   │
-│ 1015    │ 8       │ 2.01%    │ 15       │
-└─────────┴─────────┴──────────┴──────────┘
+<div align="center">
+  <img src="examples/screenshot.png" alt="QuickEDA 报告示例" width="820">
+</div>
 
-② 缺失值分布   → income 8% · spend 5% · city 3%
-③ 相关性分析   → income × age  r=0.81（强相关）
-④ 逐列画像     → 每列附分布图 / 条形图
-```
-
-> 💡 想直接看效果？把生成的 `sample_sales_report.html` 用浏览器打开即可。
+> 💡 想看完整交互效果？仓库里的 [`examples/sample_report.html`](examples/sample_report.html) 就是这张图对应的完整报告，下载用浏览器打开即可。
 
 ## 🗺️ Roadmap
 
